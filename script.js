@@ -9,7 +9,7 @@ document.getElementById('yaz').addEventListener('focus', function () {
             if (e == 3||e==6||e==8||e==10) {
                 var y = this.value += "-";
             }
-            if (event.which < 58 && event.which > 47) {
+            if (a.which < 58 && a.which > 47) {
             return true;
             }
             else{
@@ -22,6 +22,9 @@ document.getElementById('yaz').addEventListener('focus', function () {
         return false;
     });
 });
+
+
+
 
 
 
